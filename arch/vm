@@ -4,4 +4,5 @@ curl -s -o- https://install.aakashhemadri.com/arch/config/vm.creds.json > /tmp/v
 
 archinstall \
     --config https://install.aakashhemadri.com/arch/config/vm.config.json \
-    --creds /tmp/vm.creds.json
+    --creds /tmp/vm.creds.json \
+    --silent
