@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 curl -s -o- https://install.aakashhemadri.com/arch/config/vm.creds.json > /tmp/vm.creds.json
-mkdir /mnt/archinstall
+mkdir -p /mnt/archinstall
 
 archinstall \
     --config https://install.aakashhemadri.com/arch/config/vm.config.json \
