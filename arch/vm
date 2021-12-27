@@ -6,4 +6,5 @@ mkdir -p /mnt/archinstall
 archinstall \
     --config https://install.aakashhemadri.com/arch/config/vm.config.json \
     --creds /tmp/vm.creds.json \
+    --script guided
     --silent

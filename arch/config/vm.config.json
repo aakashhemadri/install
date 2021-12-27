@@ -28,5 +28,41 @@
     "swap": true,
     "sys-encoding": "utf-8",
     "sys-language": "en_US",
-    "timezone": "Asia/Kolkata"
+    "timezone": "Asia/Kolkata",
+    "/dev/vda": {
+        "partitions": [
+            {
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "fat32"
+                },
+                "format": true,
+                "mountpoint": "/boot",
+                "size": "513MB",
+                "start": "5MB",
+                "type": "primary"
+            },
+            {
+                "btrfs": {
+                    "subvolumes": {
+                        "@.snapshots": "/.snapshots",
+                        "@home": "/home",
+                        "@log": "/var/log",
+                        "@pkgs": "/var/cache/pacman/pkg"
+                    }
+                },
+                "encrypted": false,
+                "filesystem": {
+                    "format": "btrfs"
+                },
+                "format": true,
+                "mountpoint": "/",
+                "size": "100%",
+                "start": "518MB",
+                "type": "primary"
+            }
+        ],
+        "wipe": true
+    }
 }
