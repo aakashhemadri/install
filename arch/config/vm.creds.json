@@ -1,0 +1,7 @@
+{
+    "!superusers": {
+        "vm": {
+            "password": "vm"
+        }
+    }
+}

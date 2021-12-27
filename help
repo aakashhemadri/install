@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+LIST_OF_SCRIPTS=https://install.aakshhemadri.com/list
+
+curl -o- https://install.aakashhemadri.com/README.md
+
+curl -o- https://install.aakashhemadri.com/list

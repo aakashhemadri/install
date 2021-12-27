@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+archinstall \
+    --config https://install.aakashhemadri.com/arch/config/vm.config.json \
+    --creds https://install.aakashhemadri.com/arch/config/vm.creds.json

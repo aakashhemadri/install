@@ -1,0 +1,32 @@
+{
+    "audio": "pipewire",
+    "bootloader": "grub-install",
+    "dry-run": false,
+    "harddrives": [
+        "/dev/vda"
+    ],
+    "hostname": "arch-vm",
+    "kernels": [
+        "linux-zen"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {},
+    "nic": "Copy ISO network configuration to installation",
+    "ntp": true,
+    "packages": [
+        "openssh",
+        "git",
+        "vim",
+        "neovim",
+        "curl",
+        "wget"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.9/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "swap": true,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "Asia/Kolkata"
+}
