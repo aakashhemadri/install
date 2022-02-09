@@ -24,7 +24,7 @@
         "wget"
     ],
     "profile": {
-        "path": "/usr/lib/python3.9/site-packages/archinstall/profiles/minimal.py"
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
     },
     "script": "guided",
     "swap": true,
