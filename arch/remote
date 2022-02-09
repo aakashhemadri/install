@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install dependencies
-sudo pacman -Syu --noconfirm git wget vim
+sudo pacman -Syu --noconfirm unzip git wget vim
 
 # Download & Unzip public-dotfiles
 wget -O /tmp/public-dotfiles.zip \
