@@ -10,4 +10,9 @@ unzip /tmp/public-dotfiles.zip -d /tmp
 
 cd /tmp/public-dotfiles-master
 source init.sh
+echo -e "Making dots executable..."
+sudo chmod +x $HOME/.local/bin/dots
+echo -e "Configuring dot files..."
 dots config use arch-remote
+echo -e "Installing dot files..."
+dots install -r
