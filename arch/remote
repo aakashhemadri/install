@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Install dependencies
-sudo pacman -Syu git wget
+sudo pacman -Syu --noconfirm git wget vim
 
 # Download & Unzip public-dotfiles
-wget  -O /tmp/public-dotfiles.zip \
+wget -O /tmp/public-dotfiles.zip \
     https://github.com/aakashhemadri/public-dotfiles/archive/refs/heads/master.zip
 unzip /tmp/public-dotfiles.zip -d /tmp
 
