@@ -16,6 +16,6 @@ source $DOTS_SOURCE/env.sh
 echo -e "Configuring dot files..."
 dots config use arch-remote
 echo -e "Installing dot files..."
-dots install -r
+dots install -vr
 source $HOME/.profile
 vim +'PlugInstall --sync' +qa
