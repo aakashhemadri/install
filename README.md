@@ -6,6 +6,7 @@
 
 ```bash
 curl -o- https://install.aakashhemadri.com/hello-world | bash
+curl -o- https://install.aakashhemadri.com/arch/remote | bash
 ```
 
 ### cURL this helper for more infornation
@@ -28,11 +29,4 @@ curl -s -o- https://install.aakashhemadri.com/list | cat
 - [hello-world](https://github.com/aakashhemadri/hello-world)
 - arch
   - [arch/vm](https://github.com/aakashhemadri/arch/vm)
-  - [arch/arm](https://github.com/aakashhemadri/arch/arm)
-- ubuntu
-  - [ubuntu/vm](https://github.com/aakashhemadri/ubuntu/vm)
-  - ubuntu/20.04
-  - ubuntu/18.04
-
-## Sources
-
+  - [arch/remote](https://github.com/aakashhemadri/arch/remote)
