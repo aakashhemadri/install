@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Install dependencies
+sudo pacman -Syu git wget
+
+# Download & Unzip public-dotfiles
+wget  -O /tmp/public-dotfiles.zip \
+    https://github.com/aakashhemadri/public-dotfiles/archive/refs/heads/master.zip
+unzip /tmp/public-dotfiles.zip -d /tmp
+
+cd /tmp/public-dotfiles-master
+source init.sh
+dots config use arch-remote
