@@ -12,7 +12,10 @@ cd /tmp/public-dotfiles-master
 source init.sh
 echo -e "Making dots executable..."
 sudo chmod +x $HOME/.local/bin/dots
+source $DOTS_SOURCE/env.sh
 echo -e "Configuring dot files..."
 dots config use arch-remote
 echo -e "Installing dot files..."
 dots install -r
+vim +'PlugInstall --sync' +qa
+source $HOME/.profile
