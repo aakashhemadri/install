@@ -1,6 +1,6 @@
 # install
 
-[install.aakashhemadri.com](https://install.aakashhemadri.com) is a collection of install scripts for a quick and easy setup of usually -- VMs
+[install.aakashhemadri.com](https://github.com/aakashhemadri/install) is a collection of install scripts for a quick and easy setup of usually -- VMs
 
 ## Usage
 
@@ -17,7 +17,7 @@ curl -o- https://install.aakashhemadri.com/help | bash
 
 ### List of current active scripts
 
-[list](https://github.com/aakashhemadri/list)
+[list](https://github.com/aakashhemadri/install/list)
 
 
 ```bash
@@ -26,7 +26,7 @@ curl -s -o- https://install.aakashhemadri.com/list | cat
 
 ## Scripts
 
-- [hello-world](https://github.com/aakashhemadri/hello-world)
+- [hello-world](https://github.com/aakashhemadri/install/hello-world)
 - arch
-  - [arch/vm](https://github.com/aakashhemadri/arch/vm)
-  - [arch/remote](https://github.com/aakashhemadri/arch/remote)
+  - [arch/vm](https://github.com/aakashhemadri/install/arch/vm)
+  - [arch/remote](https://github.com/aakashhemadri/install/arch/remote)
